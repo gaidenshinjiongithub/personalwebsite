@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daron's Website</title>
+    <link href='/style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <div class="mobile-nav"> 
+      <a href="index.html" class="active"><img src="../public/assets/156.jpg" height="50" width="100" alt="Logo"></a>
+      <div id="mobileLinks">
+        <a href="index.html">Home</a>
+        <a href="pages/services.html">Services</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/account.html">Account</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div> 
+
+    <div class="navbar"> 
+      <div href="./index.html" class="navbar-logo" href="./index.html"><img src="public/assets/156.jpg" height=50 width=100 alt="Logo"><b>MoonDev</b></div>
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/services.html">Services</a>
+      <a href="pages/contact.html">Contact</a>
+      <a href="pages/account.html">Account</a>
+      <button onclick="document.location='pages/login.html'">Login</button>
+      <button onclick="document.location='pages/signup.html'">Get Started</button>
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-cta"></div>
+      <div class="hero-t">
+        <h1>Empower your startup by hiring an web developer</h1>
+      </div>
+      <div class="hero-p">
+        <p>So that you can work on growing your buisness.</p>
+      </div>
+      <button onclick="document.location='pages/signup.html'" class="hero-cta-btn">Get Started</button>
+      <button onclick="document.location='pages/contact.html'" class="hero-contact-btn">Contact Us</button>
+    </div><div class="hero-img">
+      <img src="public/assets/personal_website_heade.png" alt="Feature-hero image" width="1025" height="800"></img>
+    </div>
+    <div class="features-container">
+      <div class="features-card-1">
+        <h3>Quick turnaround</h3>
+      </div>
+      <div class="features-card-2">
+        <h3>Flexible</h3>
+      </div>
+      <div class="features-card-3">
+        <h3>Scable</h3>
+      </div>
+    </div>
+    <div class="feature-hero-container">
+      <img src="public/assets/istockphoto-529746347-612x612.jpg" alt="Happy Customer" width="125" height="200" class="rounded-pill">
+      <div class="feature-hero-cta"></div>
+      <div class="feature-hero-t">
+        <h3>Review from Happy Customer, Five Stars... </h3>
+        <h4>★★★★★</h4>
+      </div>
+      <div class="feature-hero-p">
+        <p>"You need to have a website made from this guy, my company is going gangbusters because of this guy!, He's a pretty smart guy..." — <b>Rich Uncle Milburn Pennybags, Majority Shareholder and CEO at ACME, INC.</b></p>
+      </div>
+    </div>
+    </div>
+    <div class="features-cta">
+      <div>
+        <h2>Ready to bring your buisness to life? </h2>
+        <button onclick="document.location='pages/signup.html'">Get Started</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/services.html">Services</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="https://www.linkedin.com/in/daron-dubose-087372245/">LinkedIn</a>
+      </div>
+    </footer>
+    <script>
+
+    function myFunction() {
+      var x = document.getElementById("mobileLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
+    </script>
+  </body>
+</html>

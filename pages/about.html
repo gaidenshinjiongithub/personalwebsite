@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daron's Website</title>
+    <link href='/style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+     <div class="mobile-nav">  
+      <a href="../index.html" class="active"><img src="../public/assets/156.jpg" height="50" width="100" alt="Logo"></a>
+      <div id="mobileLinks">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="account.html">Account</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div> 
+
+    <div class="navbar"> 
+      <div href="../index.html" class="navbar-logo" href="../index.html"><img src="../public/assets/156.jpg" height=50 width=100 alt="Logo"><b>MoonDev</b></div>
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="account.html">Account</a>
+      <button onclick="document.location='login.html'">Login</button>
+      <button onclick="document.location='signup.html'">Get Started</button>
+    </div>
+    <div class="hero-container">
+      
+      <div class="hero-cta"></div>
+      <div class="hero-t">
+        <h1>A professional web developer, at your service...</h1>
+      </div>
+
+      <div class="profile-hero-img">
+        <img src="../public/assets/VT Photo.jpg" alt="Feature-hero image" width="625" height="500"></img>
+      </div>
+
+      <div class="hero-p">
+        <p>I am Daron DuBose, a skilled web developer specializing in creating clean, modern, and high-performing websites tailored to your needs. Whether you need a sleek portfolio, a dynamic business site, or a custom web app, I bring expertise in design, functionality, and user experience to bring your vision to life. Let’s work together!</p>
+      </div>
+
+    </div>
+    
+    <div class="features-cta">
+      <div>
+        <h2>Just one click away from greatness...</h2>
+        <button onclick="document.location='signup.html'">Get Started</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.linkedin.com/in/daron-dubose-087372245/">LinkedIn</a>
+      </div>
+    </footer>
+    <script>
+
+      function myFunction() {
+        var x = document.getElementById("mobileLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+  
+      </script>
+  </body>
+</html>
